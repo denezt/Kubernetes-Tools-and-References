@@ -135,5 +135,10 @@ kubectl set image deployment/DEPLOYMENT_NAME OLD_IMAGE=NEW_IMAGE
 # WARNING: Use with caution it will remove a stateful application like a database
 kubectl delete statefulsets.apps/STATEFULSET_NAME
 ```
+``` sh
+# Get all objects from specific namespace
+kubectl get all --namespace=NAME_OF_NAMESPACE
+```
+
 
 
