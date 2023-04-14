@@ -131,7 +131,8 @@ kubectl set image deployment/DEPLOYMENT_NAME OLD_IMAGE=NEW_IMAGE
 
 ### Some Advanced topics
 ``` sh
-# If a pod is not removing, then you might need to remove the stateful set. WARNING: Use with caution it will remove a stateful application like a database
+# If a pod is not removing, then you might need to remove the stateful set.
+# WARNING: Use with caution it will remove a stateful application like a database
 kubectl delete statefulsets.apps/STATEFULSET_NAME
 ```
 
