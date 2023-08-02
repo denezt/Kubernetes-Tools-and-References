@@ -5,8 +5,8 @@
 kubectl get all
 kubectl describe service SERVICE_NAME
 kubectl describe deployment DEPLOYMENT_NAME
+kubectl create namespace NAMESPACE_NAME
 ```
-
 ### Extracting secrets and decoding
 ``` sh
 kubectl get secrets
